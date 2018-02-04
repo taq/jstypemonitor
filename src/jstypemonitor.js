@@ -1,3 +1,10 @@
+/**
+ * JSTypeMonitor
+ *
+ * Detects typing and fire a callback when some conditions are reached.
+ *
+ * Version 1.0.0
+ */
 var Bluefish = typeof Bluefish === "undefined" ? {} : Bluefish;
 
 Bluefish.JSTypeMonitor = function(options) {
